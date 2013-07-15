@@ -1,0 +1,21 @@
+friendRequest_action_front.php sends friend information to friendRequest_action.php as the array index of "frnd".
+
+wrt. table `friendRelation`
+	`friend1` initiated the friend request
+	`friend2` accept the request
+
+wrt. table `transaction`, attribute `status`
+	1	:	Approved
+	0	:	Pending
+	-1	: Rejected
+
+wrt. Notification
+	'priority' is yet un-implemented. It is kept as a future feature.
+	wrt. 'status'
+		0	:	Unread
+		1	:	Read
+
+It has to be verified that anything that goes into the message coloumn of `notification` is XSS Secure
+
+The root of the website has to be mentioned on ly at: -
+	/common/HTML/header.html

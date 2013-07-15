@@ -1,0 +1,80 @@
+Success / Failures should be REDIRECTED to another file.
+	So that the submit page cannot be refreshed repeatedly and the database troubled.
+
+----------------------------------------------------------------------------------------------------
+
+*VERY IMPORTANT*
+User Input Validation in Recording of Transactions.
+
+----------------------------------------------------------------------------------------------------
+
+The "date" in /Record/record_front.php is a text field as of now.
+	Implement it as an actual date thingy.
+The same has to be reflected in the database.
+	
+	Sort Transactions by Date.
+	
+----------------------------------------------------------------------------------------------------
+
+Check for errors after each execute()
+
+----------------------------------------------------------------------------------------------------
+
+Check for error returned by XSS_encode()
+
+----------------------------------------------------------------------------------------------------
+
+exit() after header()
+
+----------------------------------------------------------------------------------------------------
+
+Check for integrity of database before each exit ( )
+
+----------------------------------------------------------------------------------------------------
+
+*This is mentioned as a TODO, in the file*
+
+In friendRequest_action.php,
+
+	If the user modifies the array index of 'frnd', the execution of stmt1 may fail.
+		Because, the index of `frnd` decides to which user the current user has to be befriended
+
+	check for such a condition the handle its error
+
+----------------------------------------------------------------------------------------------------
+
+*This is mentioned as a TODO, in the file*
+
+In record.php
+
+	If the user modifies the value of the checkbox, inconsistency will arise
+		Because, the value of the checkbox decides to which user the transaction has to be remitted
+			what if they're not friends?
+
+	check for such a condition the handle its error
+
+----------------------------------------------------------------------------------------------------
+
+*This is mentioned as a TODO, in the file*
+
+In pending_action.php
+
+	If the user modifies the name of the radio button,
+		He may end up accepting a transaction, of which he has no right to
+
+	check for such a condition the handle its error
+
+----------------------------------------------------------------------------------------------------
+
+Include database only after validating session.
+	because, otherwise database init. is just a waste
+
+----------------------------------------------------------------------------------------------------
+
+Check that each intermediate page is comming from the proper previous page.
+
+----------------------------------------------------------------------------------------------------
+
+Understand how query is generated in "viewTransactions.php"
+
+----------------------------------------------------------------------------------------------------

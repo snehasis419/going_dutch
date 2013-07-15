@@ -1,0 +1,19 @@
+.table
+{
+	display: table;
+}
+
+.row
+{
+	display: table-row;
+}
+
+.cell
+{
+	display: table-cell;
+	border-top: solid;
+	border-bottom: solid;
+	border-left: 1px dashed;
+	border-right: 1px dashed;
+	padding: 5px;
+}

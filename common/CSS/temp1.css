@@ -1,0 +1,28 @@
+.table
+{
+	display: table;
+	 border-spacing: 0px 10px;
+}
+
+.row
+{
+	display: table-row;
+	margin-bottom: 100px;
+}
+
+.cell
+{
+	display: table-cell;
+	padding: 1px;
+	border-bottom: solid;
+	border-top: solid;
+	border-left: 1px dashed;
+	border-right: 1px dashed;
+}
+
+.cell.rightmost
+{
+	border-right: solid;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}

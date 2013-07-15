@@ -1,0 +1,131 @@
+.noOfMessages
+{
+	color: red;
+}
+
+#logIn-body
+{
+	background: url(../images/bg.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+
+#logIn-form
+{
+	background-color: rgba(255,255,255,0.95);
+	padding: 20px;
+	border: rgb(49, 126, 172) solid;
+	border-radius: 25px;
+}
+
+.menuImage
+{
+	padding: 10px;
+	width: 100px;
+	height: 100px;
+	max-width: none;
+}
+
+.border
+{
+	border: solid lightgray;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.disable
+{
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    background-color: #000;
+}
+
+.hide
+{
+	display: none;
+}
+
+.pad
+{
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.pad-small
+{
+	padding: 5px;
+	border-radius: 10px;
+}
+
+input[type="radio"]:checked+label
+{
+	background-color: #3333CC;
+}
+
+.pending input[type="radio"]:checked+label
+{
+	background-color: lightblue;
+}
+
+.center
+{
+	display: block;
+	margin: auto;
+}
+
+.long-icon
+{
+	height: 96px;
+	width: 64px;
+}
+
+.red
+{
+	color: red;
+}
+
+.box
+{
+	padding: 20px;
+	background: lightgray;
+	font-weight: bold;
+}
+
+.smallBox
+{
+	padding: 15px;
+}
+
+input[type="checkbox"]:checked+label
+{
+	background-color: #33CCCC;
+}
+
+.viewTrns input[type="checkbox"]:checked+label
+{
+	background-color: #99EEEE;
+}
+
+.noBackground
+{
+	background-color: inherit !important;
+}
+
+.inline
+{
+	display: inline;
+}
+
+.table tbody tr.warning > td
+{
+	background-color: rgba(255,255,0,0.5);
+}
+
+.text-big
+{
+	font-size: 1.5em;
+}
+
+.newNotification
+{
+	background-color: rgb(167, 223, 241) !important;
+}

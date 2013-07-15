@@ -1,0 +1,18 @@
+Signature
+	function XSS_encode ( $str, $rule )
+
+Returns an array [ < integer >, < string > ]
+	< integer >
+		0	:	Success
+		-1	:	Failure
+		-2	:	Failure, specified rule not present
+		-3	:	Failure, not implemented
+	< string >	:	converted string
+
+Second Parameter Definition
+
+	0	:	Escape HTML
+	1	:	Escape Attribute
+	2	:	Javascript Escape
+	3	:	CSS Escape
+	4	:	URL Escape

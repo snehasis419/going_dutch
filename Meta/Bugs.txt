@@ -1,0 +1,6 @@
+#1
+
+On Add friend,
+Shows Friend Request Pending, even though it has been rejected!
+
+----------------------------------------------------------------------------------------------------

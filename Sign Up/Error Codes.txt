@@ -1,0 +1,2 @@
+0	:	No Error
+1	:	Username already exists

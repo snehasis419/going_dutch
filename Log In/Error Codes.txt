@@ -1,0 +1,3 @@
+0	:	No Error
+1	:	Username does not exist
+2	:	Password does not match
